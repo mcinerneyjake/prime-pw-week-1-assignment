@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -11,8 +12,17 @@ header {
   padding: 30px;
   text-align: center;
   font-size: 30px;
-  background-color: rgb(78, 112, 49);
+  background-color: rgb(47, 95, 95);
   box-shadow: 8px 1px 8px 8px azure;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+span {
+  transition: all 1s ease;
+}
+
+span.fade-in {
+  color: white;
 }
 
 .image {
@@ -28,6 +38,16 @@ img {
   margin: auto;
   height: 500px;
   border: 20px solid #222;
+  box-shadow: 1px 1px 12px 1px #222;
+}
+
+.facts {
+  text-align: center;
+  font-style: normal;
+  text-decoration: underline white;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-bottom: 1%;
 }
 
 ul {
@@ -45,6 +65,6 @@ p {
 footer {
   padding: 30px;
   text-align: center;
-  background-color: rgb(78, 112, 49);
+  background-color: rgb(47, 95, 95);
   box-shadow: 1px 0px 8px 8px azure;
 }
