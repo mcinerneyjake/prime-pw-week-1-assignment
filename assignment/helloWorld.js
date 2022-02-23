@@ -1,7 +1,7 @@
 /* Attribution and credit to the Youtuber, Dev Ed, and their great work.
 Here's the link to his tutorial: https://www.youtube.com/watch?v=GUEB9FogoP8
 
-The code has been modified from their tutorial.
+The code has been modified from their tutorial, but much of the original's skeleton remains.
 
 To reinforce the animation concept for myself, I've written comments about what each piece of code does.
 */
@@ -21,6 +21,7 @@ for (let i = 0; i < splitText.length; i++) {
   text.innerHTML += "<span>" + splitText[i] + "</span>";
 }
 
+// These let variables give a starting point
 let character = 0;
 let timer = setInterval(onRefresh, 50);
 
