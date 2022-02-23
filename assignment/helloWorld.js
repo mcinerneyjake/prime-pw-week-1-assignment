@@ -1,3 +1,5 @@
+console.log("Hello World");
+
 /* Attribution and credit to the Youtuber, Dev Ed, and their great work.
 Here's the link to his tutorial: https://www.youtube.com/watch?v=GUEB9FogoP8
 
