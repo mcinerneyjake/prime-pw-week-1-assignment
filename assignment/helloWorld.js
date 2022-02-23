@@ -2,6 +2,8 @@
 https://www.youtube.com/watch?v=GUEB9FogoP8
 
 It just looks so cool, I couldn't resist!
+
+I will be adding comments about what each piece of the code is doing tomorrow (2/23/22) morning.
 */
 
 const text = document.querySelector(".name");
