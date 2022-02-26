@@ -20,6 +20,7 @@ header {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+/* The span and span.fade-in allow the user to manipulate position, color, etc for each span. */
 span {
   transition: all 1s ease;
 }
